@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #E1DEE1;
+	font-family: arial, century;
+	font-size: 0.5em;
+}
+nav.menu-superior, header.cabecera-principal, nav.menu-principal, footer.pie-pagina, main.principal{
+	width: 90%;
+	background: #08298A;
+	color: white;
+	margin: 0 auto;
+	text-align: right;
+	padding: 0.3em 0.9em;
+}
+header.cabecera-principal{
+	margin-top: 0.2em;
+	display: block;
+}
+header section.logotipo,header aside.busqueda-principal{
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.9em 0.9em;
+}
+header section.logotipo{
+	width: 87%;
+	text-align: left;
+}
+header aside.busqueda-principal{
+	width: 6%;
+	text-align: center;
+}
+nav.menu-principal{
+	margin-top: 0.2em;
+	text-align: center;
+}
+nav.menu-principal a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0 1em;
+}
+nav.menu-principal a:hover{
+	color: #fff;
+	border-bottom: solid 2px #2D17A5;
+	padding: 0 1em;
+}
+
+main.principal{
+	margin-top: 0.2em;	
+}
+main article.contenidos, main aside.menus, main article article.uno, main article article.dos{
+	display: inline-block;
+}
+main article.contenidos{
+	width: 69%;
+	text-align: center;
+}
+main aside.menus{
+	width: 30%;
+	background: #08298A;
+}
+main article article.uno ,article article.dos{
+	background: #08298A;
+	width: 49%;
+
+}
+
+main article article.uno section.articulo1, main article article.uno section.articulo2, main article article.dos section.articulo3, main article article.dos section.articulo4, main aside section.aside1, main aside section.aside2, main aside section.aside3{
+	margin-top: 0.2em;
+	background: #B18904;
+	padding: 0.9em 0.9em;
+	text-align: center;
+	text-align: justify;
+
+}
+
+footer.pie-pagina{
+	margin-top: 0.2em;
+	text-align: center;
+	background: #08298A;
+	color: white;
+
+}
+h3{
+	text-align: left;
+}
